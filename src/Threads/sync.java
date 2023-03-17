@@ -33,7 +33,5 @@ public class sync {
             }
             System.out.println(a.sum);
         }
-
-
     }
 }
