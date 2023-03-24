@@ -1,3 +1,5 @@
+package FirstGUI;
+
 import javax.swing.*;
 
 public class Simple {
@@ -19,14 +21,13 @@ class View {
 		b = new JButton("Click");
 		t = new JTextField(20);
 		
-		t.setBounds(50, 25, 300, 40);
-		b.setBounds(130,100,100,40);
-
+		t.setBounds(5, 100, 300, 40);
+		b.setBounds(310,100,100,40);
 		f.add(t);
 		f.add(b);
 
 
-		f.setSize(400,500);
+		f.setSize(440,500);
 		f.setLayout(null);
 		f.setVisible(true);
 
